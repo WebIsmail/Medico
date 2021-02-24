@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Gotham";
+    src: url(../fonts/Gotham\ Bold\ Regular.eot) formet("eot"),
+    url(../fonts/GothamBold.woff)  formet("woff"),
+    url(../fonts/Gotham\ Bold\ Regular.ttf) formet("truetype"),
+    url(../fonts/GothamBold.svg#Gotham) formet("svg"),
+}

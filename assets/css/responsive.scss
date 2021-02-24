@@ -1,0 +1,2398 @@
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+    .ptb-100 {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .pt-100 {
+      padding-top: 50px;
+    }
+    .ptb-70 {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .pb-100 {
+      padding-bottom: 50px;
+    }
+    .pb-70 {
+      padding-bottom: 20px;
+    }
+    .pt-70 {
+      padding-top: 20px;
+    }
+    p {
+      font-size: 15px;
+    }
+    /*-- --*/
+/*====== HOME PAGE ONE ======*/ 
+/*== Header ==*/ 
+.header-area {
+    text-align: center;
+    border-bottom: 1px solid transparent;
+    .header-rigt {
+        .call-us {
+            position: relative;
+            left: 0;
+            text-align: center;
+        }
+        .email {
+            position: relative;
+            left: 0;
+        }
+    }
+    .header-left {
+        margin-bottom: 10px;
+        ul{
+            li {
+                a {
+                    i {
+                        font-size: 13px;
+                        padding: 2px 6px;
+                    } 
+                }
+            } 
+        }  
+    }
+    .header-language {
+        text-align: center;
+    }
+}
+/*== Nav ==*/ 
+
+/*== Banner ==*/ 
+.banner-area {
+    height: 1100px;
+    .banner-header {
+        h1 {
+            font-size: 35px;
+            margin-bottom: 24px;
+            text-align: center;
+            line-height: 1.3;
+        }
+        p {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        span {
+            font-size: 16px;
+            margin-bottom: 22px;
+            text-align: center;
+            padding-top: 70px;
+        }
+    }
+    .banner-form {
+        .manu {
+            margin-bottom: 10px;
+        }
+        .doctor-btn {
+            padding: 9px 11px;
+        }
+    }
+    .banner-img {
+        img {
+            width: 220px;
+        }
+    }
+}
+/*== END Banner ==*/ 
+
+/*== About Area ==*/ 
+.about-area {
+    .about-wrp {
+        .about-in-area {
+            display: block !important;
+            .about-item {
+                padding-left: 10px;
+                padding-top: 30px;
+                padding-bottom: 45px;
+                text-align: center;
+                width: 320px;
+                height: 252px;
+                padding: 25px;
+                i {
+                    margin-bottom: 5px;
+                }
+                p {
+                    margin-bottom: 5px;
+                }
+                .about-bottom {
+                    padding-left: 15px;
+                    padding-top: 5px;
+                    h2 {
+                        font-size: 17px;
+                        margin-bottom: 10px;
+                    }     
+                    p {
+                        font-size: 13px;
+                        margin-bottom: 10px;
+                    }  
+                    .default-btn {
+                        padding: 12px 5px;
+                        font-size: 13px;
+                    }                 
+                }        
+            }
+        }
+    }
+    
+}
+/*== END About ==*/ 
+
+/*== Treatment Area ==*/ 
+.areatment-content {
+    margin-bottom: 50px;
+    .default-header {
+        margin-bottom: 30px;
+        text-align: center;
+        h2 {
+            font-size: 27px;
+            line-height: 1.3;
+        }   
+        p {
+            font-size: 14px;
+        }    
+    }
+    .default-btn {
+        font-size: 14px;
+        padding: 14px 16px;
+    }  
+}
+.areatment-img {
+    &::before {
+        right: 64px;
+    }    
+    .shape-2 {
+        display: none;
+    }
+    .shape {
+        bottom: -38px;
+        width: 100px;
+        left: -6px;
+    }
+}
+/*=== END Treatment Area ==*/ 
+
+/*== Hospotial Area ==*/
+.hospotial-area {
+    .hospotial-header {
+        margin-bottom: 17px;
+        text-align: center;
+        h2 {
+            font-size: 27px;
+            line-height: 1.3;
+        }
+    }
+    .hospotial-text {
+        p {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+    .owl-theme .owl-nav {
+        margin-top: 0px;
+    }
+    .hospotial-slider {
+        .owl-nav button.owl-next {
+            font-size: 17px !important;
+            width: 40px;
+            height: 30px;
+            line-height: 30px !important;
+        }
+        .owl-nav button.owl-prev {
+            font-size: 17px !important;
+            width: 40px;
+            height: 30px;
+            line-height: 30px !important;
+        }
+        .hospital-item {
+            .hospital-text {
+                padding: 20px;
+                text-align: center;
+                .hospital-btn {
+                    .default-btn {
+                        background: #FFFFFF;
+                        padding: 13px 10px;
+                        border: 1px solid #26A7EB;
+                        border-radius: 0;
+                        font-size: 13px;
+                    }
+                }
+                span {
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                }
+                .text-p {
+                    margin-bottom: 20px;
+                }
+            }
+            .hospital-right {
+                ul {
+                    li {
+                        font-size: 14px;
+                        margin-bottom: 5px;
+                        i {
+                            font-size: 13px;
+                        }
+                    }   
+                } 
+                h2 {
+                    font-size: 17px;
+                    margin-bottom: 10px;
+                }                     
+            }   
+        }
+    }
+    .bottom-btn {
+        .default-btn {
+            padding: 13px 18px;
+            display: table;
+            font-size: 14px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+    }
+}
+.hospotial-slider 
+.default-header {
+    span {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+/*== END Hospotial Area == */
+
+/*== Listing-Area ==*/
+.list-area {
+    .list-left {
+        margin-bottom: 30px;
+        text-align: center;
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .list-form {
+        .form-control {
+            height: 45px;
+            font-size: 14px;
+            padding: 7px 15px;
+            .list-btn {
+                padding: 8px 10px;
+                font-size: 14px;
+            }          
+        }
+    }
+    .sorting-menu {
+        margin-bottom: 30px;
+        ul {
+            li {
+                font-size: 14px;
+                padding: 5px;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+        }
+    }
+    .list-item {
+        .list-text {
+            top: 66px;
+            left: 16px;
+            h2 {
+                font-size: 15px;
+                margin-bottom: 8px;
+            }
+            p {
+                margin-bottom: 15px;
+            }
+            .list-btn .btn-btn-1 {
+                font-size: 13px;
+                padding: 9px 7px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+/*== END Listing-Area ==*/
+
+/*== Testimoinal Area ==*/
+.testimoinal-left {
+    left: 0;
+    padding: 20px;
+    height: 425px;
+    top: 25px;
+    h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 1.3;
+        &::before {
+            display: none;
+        }
+    }
+    .slider-item {
+        text-align: center;
+    p {
+        margin-bottom: 20px;
+        &::before {
+            display: none;
+        }
+    }
+}
+    .testiminal-bottom {
+        img {
+            width: 40px;
+            position: relative;
+            left: 69px;
+        }
+    }
+}
+.testimoinal-left .testimoinal-slider .owl-nav button.owl-next {
+    display: none;
+}
+
+.testimoinal-left .testimoinal-slider .owl-nav button.owl-prev {
+    display: none;
+}
+/*== Testimoinal Area ==*/
+
+/*== Choose Area ==*/ 
+.choose-area {
+    margin-bottom: 30px;
+    .shape-img {
+        top: -36px;
+        left: 1px;
+    }
+    .choose-right {
+        .choose-header {
+            margin-bottom: 30px;
+            text-align: center;
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+        .choose-item {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+}
+/*== END Choose us Area ==*/ 
+
+/*== Faq area */ 
+.faq-wrp {
+    .faq-header {
+        margin-bottom: 25px;
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            line-height: 1.3;
+        }
+    }
+    .faq-list {
+        margin-bottom: 30px;
+    } 
+    .faq-item {
+        margin-bottom: 275px;
+        .accordion{
+            p:before {
+                display: none;
+            }
+        }
+    } 
+    .faq-img {
+        .img-two {
+            top: -240px;
+            width: 250px;
+        }
+        .img-one {
+            top: -229px;
+            width: 163px;
+            left: 74px;
+        }        
+    }  
+}
+/*== END FAQ ==*/ 
+/*== Health Forum Area ==*/ 
+.forum-area {
+    .forum-header {
+        margin-bottom: 30px;
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            line-height: 1.3;
+        }
+    }
+    .list-form {
+        margin-bottom: 30px;
+        .form-control {
+            height: 40px;
+            font-size: 14px;
+            padding: 7px 15px;
+        }
+        .list-btn {
+            padding: 9px 12px;
+            font-size: 14px;
+        }
+        .forum-area {
+            .forum-slider {
+                .forum-item {
+                    padding: 15px;
+                    text-align: center;
+                    h2 {
+                        font-size: 19px;
+                        margin-bottom: 20px;
+                        &::before {
+                            display: none;
+                        }
+                    }
+                }
+                .forum-slider {
+                    .forum-item {
+                        img {
+                            width: 40px;
+                            left: 44px;
+                        }
+                        .media h2 {
+                            font-size: 16px;
+                            margin-bottom: 7px;
+                        }  
+                        p {
+                            margin-bottom: 10px;
+                            font-size: 14px;
+                        }  
+                        span {
+                            margin-bottom: 10px;
+                        }  
+                        a {
+                            font-size: 14px;
+                        }                  
+                    }
+                    .owl-nav button.owl-prev {
+                        display: none;
+                    }
+                    .owl-nav button.owl-next {
+                        display: none;
+                    }
+                }                
+            }
+        }
+    }
+}
+/*== End Health Forum Area ==*/  
+
+/*== Doctor Area ==*/
+.doctor-area {
+    background-color: #32383e;
+    .doctor-right {
+        top: 100px;
+        text-align: center;
+        left: 0px;
+        .media {
+            display: block;
+            img {
+                width: 320px;
+                border-radius: 55px;
+            }  
+        } 
+        .owl-nav button.owl-prev { 
+            display: none;
+        }
+        .owl-nav button.owl-prev {
+            display: none;
+        }
+    } 
+    .doctor-left {
+        height: 698px;
+    }
+
+}
+.doctor-area .doctor-right .media .media-body h2 {
+    font-size: 27px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.doctor-area .doctor-right .media .media-body h3 {
+    font-size: 30px;
+    color: #26A7EB;
+    margin-bottom: 5px;
+}
+.doctor-area .doctor-right .media .media-body span {
+    color: #FFFFFF;
+}
+.doctor-area .doctor-right .media .media-body p {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.doctor-area .doctor-right .media .media-body .default-btn {
+    font-size: 14px;
+    padding: 14px 12px;
+
+}
+/*== END Doctor Area ==*/ 
+
+/*== News Area ==*/ 
+.news-area {
+    .news-header {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .news-item {
+        .news-text {
+            padding: 5px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            ul {
+                &::before {
+                    top: 38px;
+                    left: 0;
+                }
+                li {
+                    font-size: 14px;
+                    font-size: 13px;
+                    padding-right: 15px;
+                }
+            }
+            h2 {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }   
+            a {
+                font-size: 14px;
+            }    
+            p {
+                margin-bottom: 10px;
+                font-size: 14px;
+            }                             
+        }
+    }
+}
+/*== END News Area ==*/ 
+
+/*==  Footer Area ==*/ 
+.footer-item-1 {
+    text-align: center;
+    margin-bottom: 30px;
+    img {
+        margin-bottom: 25px;
+        width: 100px;
+    }
+    p {
+        margin-bottom: 15px;
+        font-size: 13px;
+    }    
+    span {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    ul {
+        li {
+            a {
+                i {
+                    font-size: 16px;
+                    padding: 3px 5px;
+                 }
+            }
+        }
+   }
+}
+.footer-item {
+    text-align: center;
+    margin-bottom: 30px;
+    p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    ul {
+        li {
+            margin-bottom: 8px;
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+    span {
+        color:#FFFFFF;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .form-group {
+        .btn-btn {
+            right: 15px;
+            top: 201px;
+        }
+    }
+}
+.footer-area .footer-item .form-group .btn-btn {
+    right: 15px;
+    top: 201px;
+    font-size: 20px;
+    padding: 10px 28px;
+}
+/*========== END HOME PAGE ONE =========*/ 
+
+/*==========  HOME PAGE TWO =========*/  
+/*== Banner-Area ==*/ 
+.banner-area-2 {
+    margin-top: 0;
+    background-image: none;
+    background-color: rgba(0,123,255,.5);
+    text-align: center;
+    height: 930px;
+    margin-bottom: 70px;
+    .banner-header {
+        h2 {
+            font-size: 45px;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }  
+        span {
+            color: #FFFFFF;
+            margin-bottom: 7px;
+        }   
+         p {
+            margin-bottom: 30px;
+            color: #FFFFFF;
+        }  
+    }
+    .banner-video {
+        .video-button {
+            width: 50px;
+            height: 50px;
+            margin: 30px auto 30px;
+            z-index: 1;
+            top: -128px;
+            right: 0;        
+            i {
+                font-size: 13px;
+                line-height: 50px;
+                left: 1px;
+            }
+            &::before {
+                left: -18px;
+                content: "";
+                position: absolute;
+                top: -20px;
+            }            
+        } 
+    }
+    .banner-form {
+        .Search-name {
+            label {
+                right: 97px;
+                bottom: 46px;
+                font-size: 14px;
+            }
+        }
+        .Spatial {
+            label {
+                right: 93px;
+                bottom: 46px;
+                font-size: 14px;
+            }
+        }
+        .location {
+            .form-group {
+                label {
+                    right: 103px;
+                    bottom: 54px;
+                    font-size: 14px;
+                }
+            }
+        }
+        .name {
+            border-right: 1px solid transparent;
+        }
+        .spatial {
+            border-right: 1px solid transparent;
+        }
+        .doctor-btn {
+            font-size: 14px;
+            font-size: 13px;
+            padding: 11px 22px;
+            display: table;
+            margin: auto;
+        }
+    }
+}
+
+/*== END Banner ==*/ 
+
+/*== Aout Area ==*/
+.about-item-two {
+    padding: 25px;
+    i {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    p {
+        margin-bottom: 5px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+}
+/*== END About- Area ==*/ 
+
+/*==  Treatment Arae ==*/ 
+.treatment-area-two {
+    .treatment-content {
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+        .p-top {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        p {
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+        .treatment-btn {
+            .default-btn {
+                border-radius: 7px;
+                font-size: 13px;
+                padding: 14px 12px;
+            }  
+        }      
+    }
+}
+.treatment-area-two {
+    margin-bottom: 567px;
+    .treatment-image {
+        .img-two {
+            img {
+                display: none;
+            }
+        }
+        .img-one {
+            left: -42px;
+            width: 350px;
+            top: 60px;
+        } 
+    }  
+}
+/*== END Treatment Arae ==*/
+
+/*== Team Area ==*/ 
+.doctor-area-two {
+    height: 850px;
+    .team-item {
+        .team-content {
+            padding: 20px;
+            text-align: center;
+        }
+    }
+}
+.doctor-area-two .team-item .team-content .content-top ul li h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.doctor-area-two .team-item .team-content .content-top ul li {
+    display: inline-block;
+    padding-right: 8px;
+}
+.doctor-area-two .team-item .team-content .content-bttom p {
+    margin-bottom: 25px;
+}
+.doctor-area-two .team-item .team-content .content-bttom .default-btn {
+    font-size: 14px;
+    padding: 14px 15px;
+}
+/*== END Team Arae ==*/
+
+/*== Evant Area ==*/ 
+.event-area {
+    .event-content {
+        padding: 20px;
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }  
+        p {
+            margin-bottom: 20px;
+        }   
+        .event-btn {
+            .default-btn {
+                border-radius: 7px;
+                margin-right: 8px;
+                padding: 16px 15px;
+                font-size: 13px;
+            }
+        }   
+    }
+    .event-video {
+        .video-button {
+            left: 2px;
+        }
+    }
+}
+/*== END Evant Area ==*/ 
+/*== Listing Area ==*/
+.list-area-two {
+    .list-item-two {
+        .list-content {
+            padding: 10px;
+            padding-top: 80px;
+            ul {
+                li {
+                    i {
+                        font-size: 14px;
+                    }
+                }
+           }
+           h2 {
+                font-size: 19px;
+                margin-bottom: 6px;
+            }
+            p {
+                font-size: 14px;
+                margin-bottom: 8px;
+            }
+            a {
+                font-size: 14px;
+                margin-bottom: 30px;
+            }
+            .social ul li a i {
+                font-size: 14px;
+                padding: 5px 8px;
+            }
+            .default-btn {
+                padding: 15px 16px;
+                font-size: 14px;
+            }
+                        
+        }
+    }
+}
+/*== END Listing Area ==*/
+
+/*== Testimonial ==*/ 
+.testimonial-area-two {
+    height: 780px;
+    .testimonal-content {
+       text-align: center;
+       h2 {
+        font-size: 30px;
+        margin-bottom: 25px;
+      }
+      p {
+        color: #020303;
+        margin-bottom: 33px;
+      }
+    }
+    .testimonial-slider-2 {
+        .slider-p {
+            padding: 12px;
+            margin-top: 25px;
+            font-size: 14px;
+        }
+        .slid-quote {
+            font-size: 25px;
+            bottom: 202px;
+            left: 15px;
+        }
+        .media h2 {
+            color: #000;
+            margin-bottom: 5px;
+        }        
+    }
+}
+/*== END Testimonial ==*/ 
+/*== Choose us Area */
+.choose-area {
+    .choose-right {
+        .choose-header {
+            h2 {
+                margin-bottom: 20px;
+                font-size: 30px;
+                line-height: 1.3;
+            }
+        }
+    }
+}
+/*== Choose Area =-=*/ 
+/*== News Area ==*/ 
+.news-area-two {
+    .news-slider-two {
+        .owl-nav button.owl-next {
+            display: none;
+        }
+        display: block;
+        margin-bottom: 5px;
+           .news-text {
+            h2 {
+                font-size: 14px;
+                margin-bottom: 18px;
+                line-height: 1.6;
+            }
+        }
+    }
+}
+/*== END News Area ==*/ 
+/*==========  END HOME PAGE TWO =========*/ 
+
+/*================ HOME PAGE THREE ===================*/ 
+/*== Banner ==*/ 
+.banner-area-three {
+    .banner-content {
+        h2 {
+            font-size: 30px;
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+        .hospital-form {
+            padding: 22px;
+            border-radius: 0;
+            .form-row {
+                border-radius: 0;
+            }
+            .hospital-btn {
+                padding: 10px 15px;
+                border-radius: 28px;
+                margin-top: 0px;
+            }
+        }
+    }
+}
+/*== END Banner ==*/ 
+/*== Choose Area ==*/
+.choose-area-three {
+    .choose-left {
+        margin-bottom: 60px;
+            &::before { 
+            display: none;
+            }
+            &::after { 
+                display: none;
+            }
+            .img-two {
+                position: absolute;
+                top: 126px;
+                width: 112px;
+                left: 0px;
+            }
+        }
+    }
+    .choose-header {
+        margin-bottom: 20px;
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            color: #020303;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+
+/*== END Choose Area ==*/
+/*== treatment-area ==*/
+.treatment-area-three {
+    margin-bottom: 30px;
+    .treatment-content-three {
+        margin-bottom: 30px;
+    }
+}
+/*== END treatment-area ==*/
+/*==  Hospital Area ==*/
+.hospital-arae {
+    .header-top {
+        .hospital-form {
+            .hospital-btn {
+                display: table;
+                margin: auto;
+            }
+        }
+        .hospital-left {
+            text-align: center;
+            margin-bottom: 25px;
+            span {
+               margin-bottom: 5px;
+            }
+            h2 {
+                font-size: 30px;
+            }
+                        
+        }
+    }
+    .hospital-bottom {
+        .hospital-sidebar {
+            ul {
+                li {
+                    text-align: center;
+                }
+            }
+        }
+        .hospital-open {
+            margin-bottom: 30px;
+            .hospital-open-text {
+                padding: 30px;
+                padding-top: 35px;
+                h2 {
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                }
+                h3 {
+                    margin-bottom: 0px;
+                    font-size: 15px;
+                }
+            }
+        }
+        .hospital-item .hospital-text {
+            padding: 10px;
+            text-align: center;
+        }
+    }
+}
+/*== END Hospital Area ==*/
+/*== Doctor Area ==*/ 
+.doctor-area-three {
+    .header-top {
+        .hospital-left {
+            text-align: center;
+            margin-bottom: 20px;
+            h2 {
+                font-size: 30px;
+            }
+        }
+        .hospital-form {
+            .hospital-btn {
+                display: table;
+                margin: auto;
+            }
+        }
+    }
+}
+.doctor-area-three {
+    .boctor-bottom {
+        .doctor-item:hover {
+            .doctor-text {
+                text-align: center;
+                ul {
+                    li {
+                        a {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                p {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+                .default-btn {
+                    font-size: 14px;
+                    padding: 12px 15px;
+                }
+                                
+            }
+        }
+        .default-slider {
+            margin-bottom: 30px;
+        }
+    }
+    .header-top .hospital-left {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+} 
+/*== END Doctor Area ==*/
+
+/*==  Pharmacy Area ==*/
+.pharmacy-area-three {
+    .pharmacy-bottom {
+        .pharmacy-item {
+            margin-bottom: 30px;
+            text-align: center;
+            .pharmacy-text {
+                padding: 10px;
+                ul {
+                    li {
+                        font-size: 14px;
+                        padding-right: 20px;
+                        margin-bottom: 10px;
+                    }
+                }
+                span {
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                }
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    
+}
+/*== End  Pharmacy Area ==*/
+
+/*==  FAQ Area ==*/
+.faq-area-three {
+    .faq-item {
+        padding: 20px;
+        bottom: 100px;
+        left: 0;
+        text-align: center;
+        h2 {
+            font-size: 25px;
+            margin-bottom: 45px;
+        }
+        .accordion {
+            li {
+                a {
+                    font-size: 14px;
+                    padding: 15px;
+                    i {
+                        top: 15px;
+                        right: 6px;
+                        font-size: 20px;
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                p {
+                    display: none;
+                    padding: 15px;
+                    margin-bottom: 0;
+                    font-size: 13px;
+                    position: relative;
+                    background: #EBFBFB;
+                }
+            }
+        }
+    }
+}
+/*==  END FAQ Area ==*/
+/*== Health Forum Area ==*/
+.fourm-area-three {
+    .header-top {
+        .hospital-left{
+            text-align: center;
+            h2 {
+                font-size: 30px;
+            }
+        }
+        .hospital-form {
+            .hospital-btn {
+                display: table;
+                margin: auto;
+            }
+        }
+    }   
+}
+.forum-area {
+    .forum-slider {
+        .forum-item {
+            h2 {
+                font-size: 20px;
+                margin-bottom: 30px;
+                &::before {
+                    bottom: -18px;
+                }
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+/*=========================== END HOME PAGE THREE ==========================*/ 
+
+/*=========================== ABOUT PAGE THREE ==========================*/ 
+.defult-banner {
+    height: 300px;
+    margin-top: 52px;
+    h2 {
+        font-size: 30px;
+    }
+    ul {
+        li {
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+.choose-area-four {
+    text-align: center;
+    .choose-left h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        line-height: 1.3;
+    }
+    .choose-right {
+        .choose-item {
+            .media {
+                i {
+                    position: relative;
+                    left: 36px;
+                } 
+            }     
+        }
+    }
+}
+.about-area {
+    margin-bottom: 50px;
+}
+/*== END Choose ==*/ 
+
+/*== Mission Area ==*/ 
+.mission-area {
+    .mission-left {
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+    }
+}
+/*== END Mission Area ==*/ 
+/*=========================== END ABOUT PAGE THREE ==========================*/  
+
+/*=======================  DOCTOR PAGE ==========================*/  
+.defult-banner {
+    .banner-head {
+        h2 {
+            font-size: 28px;
+            line-height: 1.3;
+        }
+    }
+}
+.banner-bottom-form {
+    .doctor-form {
+        .manu {
+            img {
+                margin: auto;
+                display: table;
+            }
+        }
+    }
+    .doctor-form {
+        padding: 15px 13px 5px 13px;
+        top: -80px; 
+    }   
+    .default-btn {
+        font-size: 14px;
+        padding: 16px 13px;
+        border-radius: 0px;
+        display: table;
+        margin: auto;
+    }
+}
+.appointment-area {
+    .map-area {
+        .map-bottom {
+            padding: 30px;
+            border: 1px solid #26a7eb9c;
+            border-top: 1px solid transparent;
+            ul {
+                li {
+                    padding-right: 30px;
+                    margin-bottom: 22px;
+                    a {
+                        font-size: 14px;
+                    }
+                }  
+            }          
+        }
+    }
+}
+/*=======================  END DOCTOR PAGE ==========================*/  
+
+/*=======================  NEWS PAGE ==========================*/  
+.blog-details {
+    .details-content {
+        .post-text {
+            text-align: cente;
+            padding: 15px;
+            padding-top: 30px;
+            h2 {
+                font-size: 30px;
+                font-size: 28px;
+                margin-bottom: 20px;
+                line-height: 1.3;
+                &::before {
+                    display: none;
+                }
+            }
+            p {
+                margin-bottom: 30px;
+            }
+        }   
+    }
+}
+
+.boost-area {
+    .default-btn {
+        padding: 12px 15px;
+        display: table;
+        margin: auto;
+    }
+}
+.footer-area .footer-item-1 img {
+    margin-bottom: 36px;
+}
+/*=======================  END NEWS PAGE ==========================*/
+.defult-banner {
+    .banner-head {
+        ul {
+            li {
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+/*====== Doctor PAGE ===*/ 
+.doctor-area-three {
+    .boctor-bottom {
+        .doctor-item {
+            .doctor-text {
+                padding: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
+.doctor-area-three .boctor-bottom .doctor-item .doctor-text p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.doctors-area {
+    .doctors-bottom {
+        .doctors-item {
+            img {
+                width: 100%;
+            }
+        } 
+        .check-box {
+            margin-bottom: 30px;
+        }
+    }
+}
+/*====== END Doctor PAGE ===*/
+
+/*================== FOURM PAGE ==============*/
+.health-wrp {
+    .forum-item {
+        p {
+            margin-bottom: 26px;
+             margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 19px;
+            margin-bottom: 47px;
+            &::before {
+                bottom: -19px;
+            }
+        }
+        a {
+            font-size: 14px;
+        }
+    }
+}
+.boost-area {
+    .default-btn {
+        padding: 12px 15px;
+        display: table;
+        margin: auto;
+    }
+}
+.hospital-arae {
+    .hospital-bottom {
+        .hospital-item {
+            margin-bottom: 30px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+.pagination-area a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.testimional-wrp {
+    .testimional-item {
+        .slid-quote {
+            font-size: 30px;
+            bottom: 229px;
+            left: 15px;
+        }
+    }
+}
+}
+/*==============================*/
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {   
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .ptb-70 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .pt-70 {
+        padding-top: 20px;
+    }
+/*== HOME PAGE ONE ===*/ 
+.header-area {
+    text-align: center;
+    .header-rigt {
+        .call-us {
+            position: relative;
+            left: 0px;
+        }
+    }
+    .header-left {
+        ul {
+            li {
+                padding-right: 8px;
+                margin-bottom: 13px;
+            }
+        }
+    } 
+}
+/*== Banner Area ==*/
+.banner-area {
+    margin-top: 57px;
+    .banner-header {
+        padding-top: 35px;
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 58px;
+        }  
+        span {
+            display: block;
+            margin-bottom: 10px;
+        }         
+    }
+    .banner-img {
+        img {
+            width: 336px;
+            margin-top: 0;
+        }
+    }
+    .doctor-form {
+        .manu img {
+            margin-bottom: 5px;
+        }
+    }
+    .doctor-form .doctor-btn {
+        display: flex;
+        padding: 10px 13px;
+        margin-top: -44px;
+    }
+}
+/*== Banner Area ==*/
+
+/*== About Area ==*/ 
+.about-area {
+    .about-wrp {
+        .about-in-area {
+            .about-item {
+                padding: 25px;
+                text-align: center;
+                height: 275px;
+                padding-top: 80px;
+                h2 {
+                    font-size: 16px;
+                }
+                i {
+                    font-size: 30px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                }
+                .about-bottom {
+                    h1 {
+                        font-size: 14px;
+                        padding-top: 10px;
+                    }
+                    h2 {
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                        line-height: 1.3;
+                    }
+                    p {
+                        margin-bottom: 7px;
+                    }
+                    .default-btn {
+                        padding: 11px 5px;
+                        font-size: 13px;
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+}
+/*== END About ==*/ 
+
+/*==Treatment Area ==*/ 
+.default-header {
+    margin-bottom: 25px;
+    h2 {
+        font-size: 30px
+    }
+    span {
+        margin-bottom: 15px;
+    }
+}
+.areatment-img {
+    &::before {
+        width: 69%;
+    }
+    .shape-2 {
+       display: none;
+    }
+    .shape {
+        bottom: -55px;
+        z-index: -1;
+        width: 130px;
+        left: -5px;
+    }
+}
+.areatment-content .default-btn {
+    padding: 15px 15px;
+}
+/*=== END Treatment Area ==*/  
+/*== Hospotial Area ==*/
+.hospotial-area {
+    .hospotial-header {
+        margin-bottom: 15px;
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .bottom-btn {
+        .default-btn {
+            padding: 13px 30px;
+            margin-bottom: 30px;
+        }
+    }
+    .hospotial-text p {
+        margin-bottom: 15px;
+    }
+}
+.hospotial-slider {
+    .hospital-item {
+        .hospital-text {
+            padding: 25px;
+            text-align: center;
+            .hospital-right {
+                margin-bottom: 8px;
+            }
+            h2 {
+                font-size: 20px;
+                margin-bottom: 13px;
+            }
+            span {
+                margin-bottom: 13px;
+            }
+            .text-p {
+                margin-bottom: 25px;
+            }
+            .hospital-btn .default-btn {
+                padding: 13px 13px;
+            }
+        }
+    }
+}
+/*== END Hospotial Area == */
+/*== Listing-Area ==*/
+.list-area {
+    .list-left {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .list-form {
+        .list-btn {
+            display: table;
+            margin: auto;
+            margin-top: 15px;
+        }
+    }
+    .sorting-menu {
+        ul {
+            li {
+                padding-right: 15px;
+                padding-left: 15px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+/*== END Listing-Area ==*/
+
+/*== Testimoinal Area ==*/
+.testimoinal-left {
+    left: 56px;
+    padding: 25px;
+    height: 451px;
+    top: 39px;
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .owl-theme .owl-nav {
+        margin-top: -30px;
+        margin-left: 225px;
+    }
+    .testimoinal-slider {
+        .owl-nav button.owl-prev {
+            font-size: 15px !important;
+            width: 40px;
+            height: 30px;
+            line-height: 30px !important;
+        }
+        .owl-nav button.owl-next {
+            font-size: 15px !important;
+            width: 40px;
+            height: 30px;
+            line-height: 30px !important;
+        }
+    }
+}
+
+/*== Testimoinal Area ==*/
+
+/*== Choose Area ==*/ 
+.choose-area {
+    .choose-right {
+        .choose-header {
+            h2 {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .choose-right .choose-item p {
+        font-size: 14px;
+    }
+    .choose-left {
+        img {
+            border-radius: 0px 0px 74px 0px;
+        }
+    }
+    .shape-img {
+        position: absolute;
+        top: -29px;
+        left: -16px;
+    }    
+}
+/*== END Choose us Area ==*/ 
+
+/*== Faq area */
+.faq-wrp {
+    .faq-header {
+        margin-bottom: 30px;
+        h2 {
+            font-size: 28px;
+        }    
+        span {
+            margin-bottom: 0px;
+        }    
+    }
+    .faq-list {
+        ul {
+            li {
+                padding-left: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+    .faq-item {
+        .accordion {
+            li {
+                a {
+                    font-size: 14px;
+                    padding: 10px;
+            
+                }
+            }
+            p {
+                padding: 15px;
+                &:before {
+                    width: 100%;
+                    height: 1px;
+                    top: 4px;
+                    left: 0;
+                }
+            }
+        }
+    }
+    .faq-img {
+        .img-two {
+            top: -146px;
+        }
+        .img-one {
+            top: -45px;
+        }
+    }
+}
+/*== END FAQ ==*/
+/*== Health Forum Area ==*/ 
+.forum-area {
+    .forum-header {
+        text-align: center;
+        h2 {
+            font-size: 30px;
+            max-width: 790;
+        }
+    }
+    .list-form {
+        margin-bottom: 25px;
+        .list-btn {
+            display: table;
+            margin: auto;
+            margin-top: 15px;
+        }
+    }
+    .forum-slider {
+        .forum-item {
+            h2 {
+                font-size: 20px;
+                font-weight: 400;
+                margin-bottom: 50px;
+                &:before {
+                    bottom: -20px;
+                }
+            }
+            p {
+                margin-bottom: 20px;
+            }
+            img {
+                width: 40px;
+                border-radius: 100%;
+            }
+        }
+    }
+}
+/*== End Health Forum Area ==*/  
+
+/*== Doctor Area ==*/ 
+.doctor-area {
+    .doctor-right {
+        .media {
+            img {
+                width: 266px;
+                border-radius: 73px;
+            }
+            .media-body {
+                h2 {
+                    font-size: 30px;
+                    font-weight: 400;
+                }
+                h3 {
+                    font-size: 27px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    margin-bottom: 15px;
+                    font-size: 14px;
+                }
+                .default-btn {
+                    font-size: 14px;
+                    padding: 15px 15px;
+                }
+            }
+        }
+    }
+}
+/*== END Doctor Area ==*/ 
+
+/*== News Area ==*/ 
+.news-area {
+    .news-item {
+        .news-text  {
+            ul {
+                &::before {
+                    top: 32px;
+                }                
+                li {
+                    font-size: 14px;
+                    padding-right: 17px;
+                    margin-bottom: 25px;
+                }
+            }
+            h2 {
+                font-size: 17px;
+                margin-bottom: 13px;
+                text-align: center;
+            }
+            p {
+                margin-bottom: 8px;
+                font-size: 14px;
+                text-align: center;
+            }
+            a {
+                font-size: 14px;
+                display: table;
+                margin: auto;
+            }
+        }
+    }
+}
+/*== END News Area ==*/ 
+
+/*==  Footer Area ==*/ 
+.footer-area {
+    .footer-item-1 {
+        text-align: center;
+        p {
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        img {
+            margin-bottom: 35px;
+        }
+        span {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 17px;
+        }
+        ul {
+            li {
+                a {
+                    i {
+                        font-size: 14px;
+                        padding: 4px 6px;
+                    }
+                }
+            }
+        }
+    }
+    .footer-item {
+        text-align: center;
+        p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        ul {
+            li {
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+        .form-group {
+            .btn-btn {
+                right: 0;
+                top: 0;
+                padding: 14px 15px;
+                font-size: 14px;
+            } 
+        }       
+    }
+    .copy-area {
+        margin-top: 30px;
+        padding: 30px 0;
+    }
+}
+/*======================================= END HOME PAGE ONE ==================================*/
+/*== Hader ==*/ 
+.header-two {
+    .header-rigt {
+        text-align: center;
+    }
+}
+
+/*== Banner ==*/ 
+.banner-area-2 {
+    padding-top: 50px;
+    height: 390px;
+    margin-top: 57px;
+    margin-bottom: 100px;
+    .banner-header {
+        h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+            padding-top: 25px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+    }
+    .banner-content {
+        .banner-form {
+            padding: 20px;
+            border-radius: 9px;
+            padding-top: 45px;        
+            .Search-name label {
+                right: 50px;
+                font-size: 14px;
+            }
+            .Spatial label {
+                right: 15px;
+                font-size: 12px;
+                bottom: 44px;
+            }
+            .location .form-group label {
+                right: 26px;
+                font-size: 13px;            
+            }
+            
+            .name {
+                border-right: 1px solid transparent;
+            }
+            .spatial {
+                border-right: 1px solid transparent;
+            }
+            .doctor-btn {
+                font-size: 13px;
+                padding: 12px 16px;
+            }
+        }
+    }
+}
+/*== END Banner ==*/ 
+/*== Aout Area ==*/
+.about-area-2 {
+    .about-item-two {
+        padding: 20px;
+        i {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 15px;
+        }p {
+            margin-bottom: 5px;
+        }
+    }
+}
+/*== END About- Area ==*/ 
+
+/*==  Treatment Arae ==*/ 
+.treatment-area-two {
+    .treatment-content {
+        h2 {
+            font-size: 27px;
+            margin-bottom: 10px;
+        }
+        .p-top {
+            margin-bottom: 17px;
+            font-size: 14px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .treatment-btn {
+            .default-btn {
+                padding: 13px 5px;
+                font-size: 14px;
+            } 
+        }   
+    }
+    .treatment-image {
+        .img-two {
+            display: none;
+        }  
+        .img-one {
+            left: -80px;
+            width: 480px;
+            top: 0;
+        }         
+    } 
+}
+/*==  END Treatment Arae ==*/
+
+/*== Event ==*/
+.event-area {
+    .event-video {
+        height: 450px;
+        margin-top: -31px;
+    }
+    .event-content {
+        padding: 64px 10px 0px 40px;
+        .event-btn{
+            .default-btn {
+                border-radius: 7px;
+                margin-right: 15px;
+                font-size: 14px;
+            }
+        }
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    }  
+    .event-wrp {
+        top: -300px;
+    }  
+}
+/*== END Event Arae ==*/ 
+/*== Listing Area ==*/
+.list-area-two {
+    margin-top: -200px;
+}
+/*== END Listing Area ==*/
+
+/*== Testimonial ==*/ 
+.testimonial-area-two {
+    .testimonal-content {
+        h2 {
+            font-size: 25px;
+            margin-bottom: 11px;        
+        }
+        p {
+            margin-bottom: 30px;
+        }
+    }
+    .testimonial-slider-2 {
+        .slider-p {
+            color: #020303;
+            background-color: #FFFFFF;
+            padding: 10px;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        .slid-quote {
+            font-size: 20px;
+            bottom: 245px;
+            left: 14px;
+        }
+    }
+    
+}
+/*== END Choose us Area */
+/*== Faq area ==*/ 
+.faq-wrp-two {
+    height: 650px;
+}
+.forum-area .forum-header h2 {
+    font-size: 40px;
+    max-width: 781px;
+}
+/*======================================= END HOME PAGE TWO ============================*/ 
+
+/*================================ HOME PAGE THREE ==============================*/
+
+.banner-area-three {
+    height: 600px;
+    margin-top: 57px;
+
+    .banner-content {
+        h2 {
+            font-size: 45px;
+            line-height: 1.3;
+        }
+        .hospital-form {
+            padding: 15px;
+            .hospital-btn {
+                padding: 10px 12px;
+                font-size: 14px;
+                margin-top: -5px;
+            }
+        }
+    }
+}
+/*== END Banner Area ==*/ 
+
+/*== About-Area ==*/
+.about-area-three {
+    .about-wrp {
+        margin-top: -120px;
+    }
+}
+
+.choose-area-three {
+    .choose-left {
+        &::before {
+            width: 289px;
+            height: 294px;
+            bottom: -29px;
+            left: -31px;
+        }
+        &::after {
+            width: 137px;
+            height: 240px;
+            left: 192px;
+        }
+        .img-two {
+            top: 238px;
+            left: -34px;
+            width: 115px;
+        }
+    }
+    .choose-right {
+        .choose-header {
+            h2 {
+                font-size: 25px;
+                margin-bottom: 13px;
+            }
+        }
+        .media {
+            .media-body {
+                padding-left: 5px;
+                margin-top: 7px;
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+/*================================ END HOME PAGE THREE ==============================*/
+
+.hospital-arae {
+    .header-top {
+        .hospital-left {
+            h2 {
+                font-size: 27px;
+            }
+        }
+    }
+}
+
+
+.hospital-arae {
+    .hospital-bottom {
+        .hospital-item {
+            .hospital-text {
+                p {
+                    font-size: 15px;
+                    margin-bottom: 15px;
+                }                
+                ul {
+                    li {
+                        margin-bottom: 8px;
+                        padding-right: 2px;
+                        span i {
+                            padding-right: 5px;
+                            font-size: 14px;
+                        }                        
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .hospital-btn {
+                    ul {
+                        li {
+                            padding-right: 13px;
+                        }
+                    }
+                }
+            }
+        }
+        .hospital-open {
+            .hospital-open-text {
+                h2 {
+                    font-size: 17px;
+                    margin-bottom: 8px;
+                }
+                h3 {
+                    margin-bottom: 0px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.doctor-area-three .header-top .hospital-left h2 {
+    font-size: 30px;
+}
+.doctor-area-three .boctor-bottom .doctor-item .doctor-text .social {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 117px;
+    left: 21px;
+}
+.doctor-area-three {
+    .boctor-bottom {
+        .doctor-item {
+            padding: 15px;
+            .doctor-text {
+                p {
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                }
+                .location {
+                    font-size: 14px;
+                }
+                ul {
+                    li {
+                        a {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .default-btn {
+                    font-size: 14px;
+                    padding: 12px 12px;
+                }
+            }
+        }
+    }
+}
+.faq-area-three {
+    margin-top: 50px;
+    .faq-item {
+        padding: 20px;
+        bottom: 126px;
+        left: 21px;
+        width: 500px;
+        h2 {
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+        .accordion {
+            p {
+                display: none;
+                padding: 15px;
+            }
+            li {
+                a {
+                    font-size: 14px;
+                    padding: 15px;
+                }
+            }
+        }
+        
+    }      
+}
+.doctor-area-three .boctor-bottom .doctor .default-btn {
+    font-size: 14px;
+    padding: 10px 5px;
+}
+.fourm-area-three .header-top .hospital-left h2 {
+    font-size: 27px;
+    color: #020303;
+}
+/*========================= END HOME PAGE THREE =======================*/
+
+/*==================== ABOUT PAGE ========================*/ 
+.defult-banner {
+    margin-top: 57px;
+}
+.choose-area-four {
+    .choose-left {
+          img {
+            border-radius: 0px 49px 121px 0px;
+          }
+    }
+}
+.choose-area-four .choose-left h2 {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+.mission-area .mission-left h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/*===========Blog_delt Page ============*/ 
+.boost-area {
+    .bost-right {
+        .category {
+            margin-bottom: 15px;
+            ul{
+                li {
+                    a {
+                        font-size: 13px;
+                        span {
+                            left: 25px;
+                            bottom: 14px;
+                        }
+                        .spn-2 {
+                            left: 19px;
+                            top: 0px;
+                        }
+                        .spn-3 {
+                            left: 13px;
+                            padding: 5;
+                            top: 0px;
+                        }
+                        .spn-4 {
+                            left: 10px;
+                            top: 0;
+                        }
+                        .spn-5 {
+                            left: 7px;
+                            top: 0;
+                        }
+                        .spn-6 {
+                            left: 12px;
+                            top: 0;
+                        }
+                        .spn-7 {
+                            left: 21px;
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.boost-area .tag ul li a {
+    padding: 2px;
+    font-size: 12px;
+}
+.boost-area .tag ul {
+    padding-top: 9px;
+}
+.blog-details .details-content .post-text .post-bottom .social ul li a {
+    padding: 3px 6px;
+    font-size: 13px;
+}
+.blog-details .details-content .post-text ul li {
+    padding-right: 3px;
+    margin-bottom: 24px;
+}
+.testimional-wrp .testimional-item .slid-quote {
+    font-size: 30px;
+    color: #14CCCE;
+    position: relative;
+    bottom: 237px;
+    left: 15px;
+}
+}
+/*====================================================*/
+
